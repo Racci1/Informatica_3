@@ -27,7 +27,7 @@ int main()
     medio=Cont/2;
     // Ciclo che stabilisce se iòl nome è palindromo
     while(I<medio && palindromo==1){
-       if(parola[100]!=parola[I])
+       if(parola[Cont-1]!=parola[I])
        {
            palindromo=0;
        }
